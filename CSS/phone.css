@@ -1,0 +1,89 @@
+.navlist{
+    flex-direction: column;
+    margin: auto;
+}
+.navbar{
+    flex-direction: column;
+    transition: all 0.3s ease-out;
+    height:400px;
+    
+}
+#search{
+    text-align:right;
+    width: 100%;
+    padding:2px 5px;
+}
+.searchnav{
+  
+    max-width: 100%;
+    text-align:left;
+    padding:1px 12px;
+    
+    
+  }
+  .btn-small{
+    padding:2px 13px;
+    vertical-align: middle;
+}  
+.burger{
+   position: absolute;
+   cursor: pointer;
+   top:15px;
+   right:5%;
+}
+.line{
+    width: 35px;
+    background-color: white;
+    height: 4px;
+    margin:5px 5px;
+}  
+.h-nav-res{
+    height: 60px;
+}  
+.v-class-res{
+    opacity: 0;
+}
+
+
+
+/*navigation*/
+#home{
+
+
+}
+/*product*/
+#product{
+    flex-direction: column;
+}
+#product.box{
+    
+}
+.subsectionfirst{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+.subsectionsecond{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+.subsectionthird{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+.secondhalf{
+    width:100%;
+    padding:0px;
+}
+#product .box img{
+    /*width:25%;*/
+}
+.btn-almond{
+    margin-left: 39px;
+}
+.btn-chip{
+    margin-left: 48px;
+}
+.btn-submit{
+     font-size: 10px;
+}
+/*fotter*/

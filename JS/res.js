@@ -1,0 +1,9 @@
+burger=document.querySelector('.burger')
+navbar=document.querySelector('.navbar')
+navlist=document.querySelector('.navlist')
+searchnav=document.querySelector('.searchnav')
+burger.addEventListener('click',()=>{
+   navbar.classList.toggle('h-nav-res');
+   searchnav.classList.toggle('v-class-res');
+   navlist.classList.toggle('v-class-res');
+})
